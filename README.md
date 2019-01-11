@@ -34,7 +34,7 @@ iOS 8.0 ++
         // do it
     }];
         
-// 拼接:将两个不同分辨率视频拼接（17秒的视频），  耗时<3秒 ，如果是相同分辩率的视频耗时<1秒
+// 拼接:将两个不同分辨率视频拼接（17秒的视频），耗时<3秒 ，如果是相同分辩率的视频耗时<1秒
 
     [_videoBox appendVideoByPath:_testThreePath];
     [_videoBox appendVideoByPath:_testTwoPath];
